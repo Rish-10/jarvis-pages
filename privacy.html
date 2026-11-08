@@ -10,10 +10,16 @@
 <body>
 <main>
 <h1>Jarvis privacy policy</h1>
-<p class="muted">Last updated 8 November 2026</p>
+<p class="muted">Last updated 8 November 2026 (read, organise, draft and edit)</p>
 <p>Jarvis is a private assistant used only by its owner, Rishi Patel. It isn't available to the public.</p>
 <h2>What it accesses</h2>
-<p>With the owner's permission, read-only access to his own Google account: Gmail, Google Calendar and Google Drive. It never sends, changes or deletes anything in the account.</p>
+<p>With the owner's permission, Jarvis can <strong>read, organise, draft and edit</strong> in his own Google account. It <strong>never sends email and never permanently deletes</strong>. Each use is off until the owner switches it on, and only his own requests make changes.</p>
+<ul>
+<li>Gmail: read mail; organise it (archive, move, label, mark as read); create drafts, which only the owner sends. Moving mail to the Bin needs the owner's passkey.</li>
+<li>Google Calendar: read events; add, change and move the owner's own events without notifying anyone. Moving an event to the Bin needs his passkey; events with guests are changed only with his approval each time.</li>
+<li>Google Drive: read, create and edit his files. Moving files to the Bin needs his passkey; sharing is changed only with his approval each time.</li>
+</ul>
+<p>Google's permissions for Gmail and Drive would technically allow sending mail and deleting files. Jarvis's own code blocks both: every change it makes must be on a fixed list, and anything else is refused and reported to the owner.</p>
 <h2>How the data is used</h2>
 <p>Only to show the owner his own deadlines, events, emails and files, and to remind him of them. The data isn't sold or shared, isn't used for advertising, and isn't used to train AI models.</p>
 <h2>Storage</h2>
